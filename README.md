@@ -18,8 +18,8 @@ but a simple program that reads a sensor attached to an analog input looks like 
 Basic Processing sketch to communicate to an arduino via Firmata
 ================================================================
 
-(StandardFirmata should be installed on the Arduino
-
+(StandardFirmata should be installed on the Arduino)
+`
 import processing.serial.*;
 import cc.arduino.*;
 
@@ -38,5 +38,6 @@ void draw() {
   println(sensor1);
   background(sensor1);
 }
+`
 
 Now we can start to read the other sensor and create some cool vizualisations. A good example which is nice to play with is the Tree example in Examples > Topicy > Fractals and L-System.
