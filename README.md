@@ -19,25 +19,24 @@ Basic Processing sketch to communicate to an arduino via Firmata
 ================================================================
 
 (StandardFirmata should be installed on the Arduino)
-`
-import processing.serial.*;
-import cc.arduino.*;
 
-Arduino arduino;
+    import processing.serial.*;
+    import cc.arduino.*;
+    Arduino arduino;
 
-// Define the port you want to use
-String portName = "COM4";
+    // Define the port you want to use
+    String portName = "COM4";
 
-void setup() {
-  println(Arduino.list());
-  arduino = new Arduino(this, portName, 57600);
-}
+    void setup() {
+      println(Arduino.list());
+      arduino = new Arduino(this, portName, 57600);
+    }
 
-void draw() {
-  int sensor1 = arduino.analogRead(0); 
-  println(sensor1);
-  background(sensor1);
-}
-`
+    void draw() {
+      int sensor1 = arduino.analogRead(0); 
+      println(sensor1);
+      background(sensor1);
+    }
+
 
 Now we can start to read the other sensor and create some cool vizualisations. A good example which is nice to play with is the Tree example in Examples > Topicy > Fractals and L-System.
