@@ -3,21 +3,21 @@ makethings.io
 
 Some Arduino and Processing sketches for using sensors attached to Arduino and using Processing to access and vizualise them
 
-WHAT IS ARDUINO?
+What is Arduino?
 ---------------
 >"Arduino is an open-source electronics platform based on easy-to-use hardware and software. It's intended for anyone making interactive projects."
 
 **THE BLUE THING ON THE TABLE**
 
-#### ARDUINO BOARD
+#### Arduino Board
 
 Arduino senses the environment by receiving inputs from many sensors, and affects its surroundings by controlling lights, motors, and other actuators.
 
-#### ARDUINO SOFTWARE
+#### Arduino Software
 
 You can tell your Arduino what to do by writing code in the Arduino programmming language and using the Arduino development environment.
 
-** You won't need that in this workshop. I'll take care of the Arduino Software :)
+** You won't need that in this workshop. I'll take care of the Arduino Software :)**
 
 Basic Instructions
 --------------------
