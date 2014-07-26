@@ -26,7 +26,7 @@ void setup() {
 // forever repeating function
 void draw() {
   background(0);
-  // getting a value from the sensor(between 0 and 255) that is connected to A0
+  // getting a value from the sensor(between 0 and 1023) that is connected to A0
   int sensor1 = arduino.analogRead(0); 
   // print it!
   println(sensor1);
