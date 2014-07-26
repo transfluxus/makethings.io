@@ -22,10 +22,10 @@ void setup() {
 
 // forever repeating function
 void draw() {
-  // getting a value from the sensor(between 0 and 255) that is connected to A0
+  // getting a value from the sensor(between 0 and 1023) that is connected to A0
   int sensor1 = arduino.analogRead(0); 
   // print it!
   println(sensor1);
   // set the background brightness according to the sensor reading
-  background(sensor1);
+  background(sensor1/4);
 }
