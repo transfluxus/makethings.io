@@ -33,9 +33,10 @@ void draw() {
   // speed of the cursor
   float v = frameCount*0.01f;
   // basic cursor direction
-  PVector pos = new PVector(cos(v), sin(v));
+ 
+  PVector pos =  PVector.fromAngle(v);
   // cursor distance from the center depends on the sensor reading
-  float r = map(sensor1, 0, 1023, 0, width/2);
+  float r = map(sensor1, 0, 1023, 20, width/2);
   pos.mult(r);
   translate(width/2, height/2);
   ellipse(pos.x, pos.y, 20, 20);
